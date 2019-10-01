@@ -14,6 +14,7 @@ The project is adressed to people who want to get the coating performance of a s
 * **What is the goal of this project?**   
 The goal of this project is to provide a python package that ease the design of a desired coating and be able to find the best parameters to get a desired reflectivity at a certain wavelength. 
 
-## How to install the library
-
-To be continued
+## How to install the library  
+```shell
+$ pip install dbr-coating
+```
