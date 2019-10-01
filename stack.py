@@ -5,8 +5,8 @@ class Stack:
     Class of a DBR stack.
 
     Attributes:
-        index_list (array): list of the consecutive indexes of te stack
-        thickness_list (array): list of the consecutive thickness of te stack
+        index_list (array): list of the consecutive layers index of the stack
+        thickness_list (array): list of the consecutive layers thickness of the stack
         sigma (float) : losses induces by surface roughness of the stack
     """
     def __init__(self, index_arr, thickness_arr, sigma=None):
@@ -40,13 +40,4 @@ class Stack:
     def get_sigma(self):
         """ Get the value of losses sigma of the layer i of the stack."""
         return self.sigma
-
-
-class VariableStack(Stack):
-
-    def __init__(self, index_arr, thickness_arr, sigma=None):
-        Stack.__init__(index_arr, thickness_arr, sigma=sigma)
-
-    def __call__(self, thickness):
-        self.thickness = thickness
 
