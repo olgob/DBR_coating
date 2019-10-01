@@ -1,7 +1,7 @@
 ## Description
 
 **What is this repo or project?**  
-This project is a software used to calculate the spectral response of a Distributed Bragg Reflector (DBR), but can be used as well to simulate the behaviour of optical cavities compozed by several mirrors.
+This project is a software used to calculate the spectral response of a [Distributed_Bragg_reflector](https://en.wikipedia.org/wiki/Distributed_Bragg_reflector), but can be used as well to simulate the behaviour of optical cavities compozed by several mirrors.
 
 * **How does it work?**  
 The repository is compozed by 2 folders. The core of the program is located in distribution folder. A test can be run using the files int the test folder.  
