@@ -1,4 +1,5 @@
 Layer	Material	Refractive Index	Thickness [nm]
+0   Air     1       100
 1	SiO2	1.457	108.6135896
 2	Ta2O5	2.071	76.41236118
 3	SiO2	1.457	108.6135896
@@ -55,3 +56,4 @@ Layer	Material	Refractive Index	Thickness [nm]
 54	Ta2O5	2.071	76.41236118
 55	SiO2	1.457	108.6135896
 56	Ta2O5	2.071	76.41236118
+57  Air     1       100
